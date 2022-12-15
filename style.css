@@ -1,19 +1,9 @@
-.container{
-		max-width: 840px ;
-		margin: 0 auto;
-}
+.container { max-width: 840px; margin: 0 auto; }
 
-.intro{
-	text-align: center;
-}
+.intro { text-align: center; }
 
-.about-grid{
-		display: grid;
-		display-template-rows: 50% 50%;
-}
+.about-grid { display: grid; display-template-rows: 50% 50%; }
 
-.about-list{
-text-align: center;
-list-style: none;
-}
+.about-list { text-align: center; list-style: none; }
+
 

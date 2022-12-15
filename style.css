@@ -49,26 +49,23 @@
 		}
 
 .links-and-contact {
-	display: grid;
-	grid-template-columns: 30% 70%;
+  display: grid;
+  grid-template-columns: 30% 70%;
 }
 
 .links {
-	justify-self: center;
+  justify-self: center;
 }
 
 .links-list {
-	list-style: none;
-	padding: 0;
+  list-style: none;
+  padding: 0;
 }
-
 @media (max-width: 650px) {
-	.links-and-contacts {
-		grid-template-columns: 100%;
-	}
+  .links-and-contact {
+    grid-template-columns: 100%;
+  }
 }
-
-
 
 
 

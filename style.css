@@ -12,11 +12,13 @@
 		grid-template-columns: 50% 50%;
 }
 
-.about-list{
-		text-align: center;
-		list-style: none;
+.i-am, .i-like{
+	text-align: center;
 }
 
 
+.about-list{
+		list-style: none;
+}
 
 

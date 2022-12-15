@@ -48,6 +48,40 @@
 				}
 		}
 
+.links-and-contact {
+	display: grid;
+	grid-template-columns: 30% 70%;
+}
+
+.links {
+	justify-self: center;
+}
+
+.links-list {
+	list-style: none;
+	padding: 0;
+}
+
+@media (max-width: 650px) {
+	.links-and-contacts {
+		grid-template-columns: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

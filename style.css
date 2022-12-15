@@ -1,28 +1,13 @@
-.container{
-		max-width: 840px ;
-		margin: 0 auto;
-}
+.container { max-width: 840px; margin: 0 auto; }
 
-.intro{
-	text-align: center;
-}
+.intro { text-align: center; }
 
-.about-grid{
-		display: grid;
-		grid-template-columns: 50% 50%;
-}
+.about-grid { display: grid; grid-template-columns: 50% 50%; }
 
-.i-am, .i-like{
-	text-align: center;
-}
+.i-am, .i-like { text-align: center; }
 
-
-.about-list{
-		list-style: none;
-}
+.about-list { list-style: none; }
 
 @media (max-width: 480px) {
-		.about-grid {
-			grid-template-columns: 100%;
-			}
+  .about-grid { grid-template-columns: 100%; }
 }

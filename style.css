@@ -27,6 +27,7 @@
 .links { justify-self: center; }
 
 .links-list { list-style: none; padding: 0; }
+
 @media (max-width: 650px) {
   .links-and-contact { grid-template-columns: 100%; }
 }
@@ -34,3 +35,7 @@
 .profile-picture { border-radius: 50%; width: 150px; height: 150px; box-shadow: 0 4px 6px 0 rgb(34, 60, 80, 0.16); transition: all ease-in-out .2s; }
 
 .profile-picture:hover { box-shadow: 0 8px 12px 0 rgb(34, 60, 80, 0.16); }
+
+.project-image { border-radius: 5px; box-shadow: 0 4px 6px 0 rgba(34, 60, 80, 0.16); transition: all ease in-out .2s; }
+
+.project-image:hover { filter: brightness(.75); box-shadow: 0 8px 12px 0 rgba(34, 60, 80, 0.16); }

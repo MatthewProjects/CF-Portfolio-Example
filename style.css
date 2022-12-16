@@ -48,4 +48,8 @@ h1, h2, h3, h4 { font-family: 'Roboto Mono',monospace; }
 
 .profile-picture:hover { box-shadow: 0 8px 12px 0 rgb(34, 60, 80, 0.16); }
 
+form input, textarea { padding: 5px; border-radius: 5px; width: 240px; }
 
+form input [type="submit"] { width: 250px; }
+
+.submit-button-wrapper { margin: 20px 0; }

@@ -9,5 +9,5 @@ submitButton.addEventListener("click", function (e) {
   let messageValue = messageElement.value;
 
   console.log(emailValue);
-  console.log(emailValue);
+  console.log(messageValue);
 });

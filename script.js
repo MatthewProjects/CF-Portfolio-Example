@@ -8,6 +8,6 @@ submitButton.addEventListener("click", function (e) {
   let emailValue = emailElement.value;
   let messageValue = messageElement.value;
 
-  console.log(emailValue);
-  console.log(messageValue);
+  console.log("Email: ", emailValue);
+  console.log("Message: ", messageValue);
 });

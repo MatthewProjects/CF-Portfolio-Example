@@ -1,4 +1,13 @@
 alert("hello world");
 let emailElement = document.querySelector("#email");
-console.log(emailElement);
-console.log("Hello world");
+let messageElement = document.querySelector("#message");
+let submitButton = document.querySelector("#submit-button");
+submitButton.addEventListener("click", function (e) {
+  e.preventDefault();
+
+  let emailValue = emailElement.value;
+  let messageValue = messageElement.value;
+
+  console.log(emailValue);
+  console.log(emailValue);
+});
